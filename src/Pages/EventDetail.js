@@ -31,7 +31,12 @@ const EventDetail = () => {
                 </h3>
                 </div>
                 <div className='event-right'>
-
+                    <div className='event-time-date'>
+                        <p>{eventStartTime}</p>
+                        <p>{eventEndTime}</p>
+                        <p>{location}</p>
+                        <p>{price}</p>
+                    </div>
                 </div>
                 
             </div>
