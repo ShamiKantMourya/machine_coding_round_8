@@ -1,21 +1,24 @@
-.event-alldetails{
+.event-alldetails {
     display: grid;
     grid-template-columns: 2rem 3fr 1fr 2rem;
 }
-.event-left{
+
+.event-left {
     grid-column: 2/3;
 }
-.event-time-date{
+
+.event-time-date {
     display: flex;
     flex-direction: column;
     height: 200px;
     width: 100%;
-    margin: 5px 5px;
+    margin: 25px 5px 5px 5px;
     border: 1px solid black;
     justify-content: center;
     border-radius: 5px;
-    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
 }
+
 .event-time-date p {
     font-size: 20px;
     font-weight: 500;

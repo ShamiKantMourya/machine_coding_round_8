@@ -34,7 +34,7 @@ const EventDetail = () => {
                     <div className='event-time-date'>
                         <p>{eventStartTime}</p>
                         <p>{eventEndTime}</p>
-                        <p>{location}</p>
+                        <p>{address}</p>
                         <p>{price}</p>
                     </div>
                 </div>
