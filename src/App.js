@@ -1,15 +1,15 @@
 import logo from './logo.svg';
 import './App.css';
 import HomePage from './Pages/HomePage';
-import EventDetails from './Components/EventDetails';
-import { Route, Router, Routes } from 'react-router-dom';
+import EventDetail from './Pages/EventDetail';
+import { Route, Routes } from 'react-router-dom';
 
 function App() {
   return (
     <div className="App">
         <Routes >
           <Route path='/' element = { <HomePage />} />
-          <Route path='/:eventId' element = {<EventDetails />} />
+          <Route path='/:eventId' element = {<EventDetail />} />
         </Routes>
     </div>
   );
