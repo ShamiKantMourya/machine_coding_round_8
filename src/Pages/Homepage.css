@@ -1,0 +1,55 @@
+.events {
+    display: flex;
+    justify-content: space-evenly;
+    /* flex-direction: column; */
+    max-width: 800px;
+    
+}
+
+.select {
+    grid-column: 4/5;
+   display: grid;
+   justify-content: center;
+   align-items: center;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 6rem;
+    height: 1.3rem;
+}
+
+.select select {
+    justify-content: center;
+    align-items: center;
+    border: none;
+    outline: none;
+}
+
+.meetup-event {
+    display: grid;
+    grid-template-columns: 2rem 1fr 2fr 1fr 2rem;
+    align-items: center;
+    justify-content: center;
+    height: 4rem;
+    width: 100%;
+}
+
+.meetup-event-detail{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 30rem;
+    width: 25rem;
+    padding: 5px 5px;
+    margin: 5px 5px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+.img-eventType-box{
+    height: 20rem;
+    width: 16rem;
+}
+.img-eventType-box img {
+    height: 20rem;
+    width: 16rem;
+}

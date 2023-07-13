@@ -1,0 +1,32 @@
+.header {
+    display: grid;
+grid-template-columns: 2rem 1fr 2fr 1fr 2rem;
+    height: 4rem;
+    width: 100%;
+    align-items: center;
+}
+.text-h1{
+    grid-column: 2/3;
+}
+.input {
+    grid-column: 4/5;
+    border: 1px solid black;
+    border-radius: 5px;
+    height: 1.8rem;
+}
+
+.input button {
+    align-items: center;
+    height: 2rem;
+    border: none;
+    outline: none;
+    background: none;
+}
+
+.input-field {
+    height: 1rem;
+    align-items: center;
+    padding: 2px 2px;
+    border: none;
+    outline: none;
+}
